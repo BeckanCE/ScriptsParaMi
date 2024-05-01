@@ -9,7 +9,7 @@ HOST = 'ipdelhost'
 PUERTO = 22
 USUARIO = 'usuario'
 CONTRASEÑA = 'contraseña'
-RUTA_REMOTA = 'donde/se/suben/losarchivos'
+RUTA_REMOTA = 'donde/se/suben/los/archivos'
 
 # Configuración del Discord Webhook
 DISCORD_WEBHOOK_URL = 'tu_url_webhook_discord'
@@ -40,7 +40,7 @@ def eliminar_archivo(local_path):
         print(f"No se pudo eliminar el archivo {local_path}: {e}")
 
 def main():
-    carpeta = '/home/steam/Steam/steamapps/common/l4d2/left4dead2/demos'
+    carpeta = 'ruta/donde/sourcetv/graba/los/demos'
     archivos = os.listdir(carpeta)
     
     for archivo in archivos:
