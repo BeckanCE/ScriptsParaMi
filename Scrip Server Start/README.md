@@ -1,6 +1,12 @@
-# REINICIO AUTOMÁTICO DE SERVIDOR
+# INICIO AUTOMÁTICO DE SERVIDOR
 
-**IMPORTANTE:** Esto lo hice en Ubuntu, ademas debiste haber creado tu servidor con la guia de SirPlease.
+**REQUISITOS**
+
+- Usar el siguiente plugin para que el servidor de detenga cada vez que el ultimo jugador se desconecte: https://github.com/fbef0102/L4D1_2-Plugins/tree/master/linux_auto_restart
+
+- Haber creado tu servidor con la guia de SirPlease
+
+**IMPORTANTE:** Esto lo hice en Ubuntu
 
 1.- Iniciamos nuestro servidor con la guía de SirPlease.
 
@@ -36,4 +42,4 @@
 	
 Presionamos Ctrl + X para dejar de editar el archivo, presionamos Y para guardar los cambios y Enter para cerrar el archivo. Ya podemos cerrar PuTTY
 	
-*Listo, ahora tu servidor se reiniciara automáticamente cada vez que el último jugador se desconecte.*
+*Listo, ahora tu servidor se iniciara cada vez que se detecte que no se este ejecutando.*
