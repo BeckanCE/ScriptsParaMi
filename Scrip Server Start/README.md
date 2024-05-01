@@ -1,6 +1,6 @@
 # REINICIO AUTOMÁTICO DE SERVIDOR
 
-**IMPORTANTE:** Esto solo lo use en una VPS Ubuntu.
+**IMPORTANTE:** Esto lo hice en Ubuntu, ademas debiste haber creado tu servidor con la guia de SirPlease.
 
 1.- Iniciamos nuestro servidor con la guía de SirPlease.
 
