@@ -18,6 +18,8 @@
 	
 3.- Nos saldran varios procesos, para ordenarlos presionamos la tecla F5. Despúes en la parte superior derecha en donde dice "Command", en la colummna buscaremos nuestro servidor, una vez ubicado no perdamos la línea y nos iremos hacia la izquierda hasta llegar a la columna llamada PID, en la línea de nuestro servidor estarán unos números el cual sera el PID del proceso de nuestro servidor que es necesario y lo anotamos.
 
+Ejemplo: https://github.com/BeckanCE/ScriptsParaMi/blob/main/Scrip%20Server%20Start/image/ejemplo.png
+
 4.- Entramos al archivo check_and_execute.sh y modificamos la línea 4. Cambiamos el PDI por el que obtuvimos anteriormente, guardamos los cambios y cerramos el archivo.
 
 5.- Entramos a nuestro VPS con usuario root a traves de Filezilla y copiamos el archivo check_and_execute.sh en la carpeta /root
